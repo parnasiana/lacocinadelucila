@@ -14,4 +14,14 @@ nav {
     position: fixed;
 }
 
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.welcome, #logo-welcome, .initial-form, .mission-vision, .categories {
+    height: 700px;
+}
 
+.welcome, .initial-form, .mission-vision, .categories {
+    width: 100%;
+}
