@@ -46,7 +46,7 @@
     font-size: 30px;
 }
 
-::placeholder, input, option, .comuna {
+::placeholder, input, option, .comuna, .submit {
     font-family: Comfortaa;
     text-align: center;
 }
