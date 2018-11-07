@@ -21,17 +21,18 @@
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.5);
     align-content: center;
-    justify-content: center;
 }
 
 #logo img{
     width: 268px;
     height: 238px;
     margin-top: 300px;
+    margin-left: 100px;
 
 }
 
 h1 {
     font-family: Pacifico;
     font-size: 25px;
+    margin-left: 85px;
 }
