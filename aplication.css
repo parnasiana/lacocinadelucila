@@ -1,0 +1,27 @@
+.contact-me, form{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+input{
+    background-color: rgb(193, 39, 45);
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255,0.3);
+}
+
+input, ::placeholder {
+    font-size: 30px;
+    padding: 10px;
+}
+
+input, select {
+    width: 600px;
+}
