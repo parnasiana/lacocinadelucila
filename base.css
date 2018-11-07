@@ -35,6 +35,7 @@
 
 .white {
     color: rgb(255 , 255, 255);
+    text-align: center;
 }
 
 .title-type, #slogan {
@@ -45,7 +46,8 @@
     font-size: 30px;
 }
 
-::placeholder, input {
+::placeholder, input, option, .comuna {
     font-family: Comfortaa;
+    text-align: center;
 }
 

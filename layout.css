@@ -25,3 +25,12 @@ nav {
 .welcome, .initial-form, .mission-vision, .categories {
     width: 100%;
 }
+
+.initial-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me{
+    width: 30%;
+}
