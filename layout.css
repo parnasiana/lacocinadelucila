@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    display: block;
+    background-color: #000;
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+
