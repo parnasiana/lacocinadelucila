@@ -35,7 +35,14 @@ nav {
     width: 400px;
 }
 
-.section-title{
+.section-title, .one{
     margin-left: 50px;
+}
+
+.section-title {
     margin-top: 50px;
+}
+
+.one {
+    margin-top: 100px;
 }
