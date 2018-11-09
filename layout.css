@@ -12,17 +12,18 @@ nav {
     align-items: center;
     width: 100%;
     position: fixed;
+    z-index: 3;
 }
 
 #wrapper{
     display: flex;
     flex-direction: column;
 }
-.welcome, #logo-welcome, .initial-form, .mission-vision, .categories {
+.welcome, #logo-welcome, .initial-form, .mission-vision, .strong-img, .categories {
     height: 700px;
 }
 
-.welcome, .initial-form, .mission-vision, .categories {
+.welcome, .initial-form, .mission-vision, .strong-img, .categories {
     width: 100%;
 }
 
