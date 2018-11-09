@@ -32,10 +32,16 @@
 .initial-form {
     background-color: rgb(193, 39, 45);
 }
+.center-text {
+    text-align: center;
+}
+
+.rigth-text {
+    text-align: right;
+}
 
 .white {
     color: rgb(255 , 255, 255);
-    text-align: center;
 }
 
 .title-type, #slogan {
@@ -56,7 +62,7 @@
     text-align: left;
 }
 
-.black span{
+ span{
     color: rgb(193, 39, 45);
 }
 
@@ -94,4 +100,9 @@ p{
     margin-top: 150px;
     margin-left: 150px;
     z-index: 1;
+}
+
+.medium-title{
+    margin-top: 250px;
+    margin-right: 150px;
 }
