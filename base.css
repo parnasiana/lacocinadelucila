@@ -73,13 +73,15 @@
 
 p, ul {
     font-family: Comfortaa;
-    color: rgb(112, 112, 112);
 }
+
+
 
 .one {
     font-size: 21px;
     width: 50%;
     line-height: 32px;
+    
 }
 
 .strong-img{
@@ -121,6 +123,10 @@ ul {
     font-size: 21px;
 }
 
+.one, ul {
+    color: rgb(112, 112, 112);
+}
+
 .img-pin-two {
     display: inline-block;
     position: absolute;
@@ -132,11 +138,16 @@ ul {
 .border-black {
     display: inline-block;
     position: absolute;
-    border: 6px solid black;
+    border: px solid black;
     width: 600px;
     height: 350px;
     z-index: 2;
     margin-top: 100px;
     margin-left: 100px;
 
+}
+
+.foot {
+    font-size: 18px;
+    padding: 50px;
 }
