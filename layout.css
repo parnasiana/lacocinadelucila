@@ -49,6 +49,28 @@ nav {
 }
 
 footer {
-    height: 400px;
+    height: 300px;
     background-color:  rgb(193, 39, 45);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-foot {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.btn-logo-home{
+    width: 200px;
+    height: 200px;
 }

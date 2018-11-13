@@ -138,7 +138,7 @@ ul {
 .border-black {
     display: inline-block;
     position: absolute;
-    border: px solid black;
+    border: 6px solid black;
     width: 600px;
     height: 350px;
     z-index: 2;
@@ -149,5 +149,12 @@ ul {
 
 .foot {
     font-size: 18px;
-    padding: 50px;
+    display: inline-block;
+}
+
+.text-btn-foot {
+    display: flex;
+    flex-direction: row;
+    text-decoration: transparent;
+    font-size: 21px;
 }
