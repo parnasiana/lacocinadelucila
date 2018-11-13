@@ -73,6 +73,7 @@
 
 p, ul {
     font-family: Comfortaa;
+    color: rgb(112, 112, 112);
 }
 
 .one {
@@ -87,7 +88,7 @@ p, ul {
 
 .border-white {
     position: absolute;
-    border: 4px solid white;
+    border: 6px solid white;
     width: 600px;
     height: 350px;
     z-index: 2;
@@ -121,18 +122,21 @@ ul {
 }
 
 .img-pin-two {
+    display: inline-block;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 150px;
-    z-index: 3;
+    margin-top: 120px;
+    margin-left: 180px;
+    z-index: 1;
 }
 
 .border-black {
+    display: inline-block;
     position: absolute;
-    border: 4px solid black;
+    border: 6px solid black;
     width: 600px;
     height: 350px;
-    z-index: 4;
-    margin-top: 120px;
-    margin-right: 120px;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 100px;
+
 }
