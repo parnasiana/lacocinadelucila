@@ -62,7 +62,7 @@
     text-align: left;
 }
 
-span, .detail-title-section{
+span, .detail-title-section, .red{
     color: rgb(193, 39, 45);
 }
 
@@ -81,6 +81,8 @@ p, ul {
     font-size: 21px;
     width: 50%;
     line-height: 32px;
+    text-align: justify;
+    display: inline-block;
     
 }
 
