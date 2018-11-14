@@ -77,12 +77,12 @@ footer {
 }
 
 .sweet {
-    margin-top: 100px;
+    margin-top: 80px;
     flex-direction: column;
 }
 .card-section {
     width: 80%;  
-    margin: 150px auto;
+    margin: 100px auto;
 }
 
 .detail-product {
@@ -118,4 +118,9 @@ footer {
 .price-product {
     display: flex;
     float: right;
+}
+
+.salty {
+    margin-top: 0px;
+    flex-direction: column;
 }
