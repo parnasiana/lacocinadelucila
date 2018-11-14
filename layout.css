@@ -19,6 +19,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 .welcome, #logo-welcome, .initial-form, .mission-vision, .strong-img, .categories {
     height: 700px;
 }
@@ -70,7 +71,47 @@ footer {
     width: 250px;
 }
 
-.btn-logo-home{
+.btn-logo-home {
     width: 200px;
     height: 200px;
+}
+
+.card-section {
+    width: 80%;  
+    margin: 0 auto 50px auto;
+}
+
+.detail-product {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.size-gallery{
+    width: 250px;
+    height: 250px;
+}
+
+.gallery-product {
+    padding: 25px;
+    margin: 0px;
+    width: 525px;
+    height: 525px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-detail {
+    padding: 0px 25px;
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-product {
+    display: flex;
+    float: right;
 }

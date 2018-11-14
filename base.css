@@ -25,7 +25,7 @@
     margin-top: 300px;
 }
 
-.nav-element, #slogan, .title-type {
+.nav-element, #slogan, .title-type, .detail-title-section, .price-product{
     font-family: Pacifico;
 }
 
@@ -62,7 +62,7 @@
     text-align: left;
 }
 
- span{
+span, .detail-title-section{
     color: rgb(193, 39, 45);
 }
 
@@ -123,7 +123,7 @@ ul {
     font-size: 21px;
 }
 
-.one, ul {
+.one, ul, .detail-text-section {
     color: rgb(112, 112, 112);
 }
 
@@ -157,4 +157,26 @@ ul {
     flex-direction: row;
     text-decoration: transparent;
     font-size: 21px;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.detail-title-section {
+    font-size: 32px;
+}
+
+.detail-text-section {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.price-product {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: left;
+    padding: 0 20px;
 }
