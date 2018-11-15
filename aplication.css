@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-input, select {
+.find-me, select {
     background-color: rgb(193, 39, 45);
     border: none;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -14,15 +14,15 @@ input, select {
 }
 
 ::placeholder, .comuna {
-    color: rgba(255, 255, 255,0.3);
+    color: rgba(255, 255, 255,0.2);
 }
 
-input, ::placeholder, option, .comuna {
+.find-me, .find-me ::placeholder, option, .comuna {
     font-size: 30px;
     padding: 10px 0px;
 }
 
-input, select {
+.find-me, select {
     width: 100%;
     display: block;
 }
@@ -35,8 +35,22 @@ input, select {
     font-size: 25px;
     width: 100%;
     text-decoration: none;
-
+    margin-top: 50px;
 }
+
+.search {
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 28px;
+    padding: 10px;
+}
+
+
+
+
 
 
 

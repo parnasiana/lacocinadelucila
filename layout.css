@@ -148,4 +148,19 @@ footer {
 .big-form {
     width: 90%;
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.inputs-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs-group {
+    width: 50%;
+}
+.search {
+    width: 100%;
 }
