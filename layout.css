@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    width: 100%;
 }
 
 nav {
@@ -160,7 +161,4 @@ footer {
 
 .inputs-group {
     width: 50%;
-}
-.search {
-    width: 100%;
 }

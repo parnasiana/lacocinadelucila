@@ -4,7 +4,7 @@
 }
 
 .find-me, select {
-    background-color: rgb(193, 39, 45);
+    background-color: transparent;
     border: none;
     border-bottom: 2px solid rgb(255, 255, 255);
     margin-top: 30px;
@@ -14,7 +14,7 @@
 }
 
 ::placeholder, .comuna {
-    color: rgba(255, 255, 255,0.2);
+    color: rgb(190, 190, 190);
 }
 
 .find-me, .find-me ::placeholder, option, .comuna {
@@ -39,14 +39,21 @@
 }
 
 .search {
-    background-color:  rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);;
     border: none;
     border-radius: 5px;
     outline: none;
-    font-size: 28px;
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    height: 38px;
+    display: block;
+    width: 100%;
+    text-indent: 10px;
 }
+
+::placeholder, .search {
+    color: rgb(190, 190, 190);
+
 
 
 
