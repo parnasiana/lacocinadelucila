@@ -148,7 +148,8 @@ footer {
 
 .big-form {
     width: 90%;
-    margin: 0px auto;
+    margin: 0px auto 100px auto;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -157,8 +158,18 @@ footer {
 .inputs-info {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .inputs-group {
     width: 50%;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.write-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 30px;
 }

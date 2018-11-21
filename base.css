@@ -52,12 +52,12 @@
     font-size: 40px;
 }
 
-.find-me ::placeholder, .find-me, option, .comuna {
+.find-me ::placeholder, .find-me, option, .comuna, .msg-text {
     font-family: Comfortaa;
     text-align: left;
 }
 
-.submit {
+.submit, .send {
     text-align: center
 }
 
@@ -75,7 +75,7 @@ span, .detail-title-section, .red{
     background-size: cover;
 }
 
-p, ul, h4, .search, .submit  {
+p, ul, h4, .search, .submit, .send {
     font-family: Comfortaa;
 }
 
