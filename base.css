@@ -1,8 +1,15 @@
-.nav-element{
+.nav-element {
+    height: 50px;
+    transition: 0.2s;
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0px 30px;
+    border-bottom: 4px solid transparent;
+    padding: 5px 30px;
+}
+
+.nav-element:hover {
+    color: rgb(193, 39, 45);
 }
 
 .welcome {
