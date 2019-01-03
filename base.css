@@ -203,6 +203,21 @@ h4 {
 /* phone */
 @media (max-width:376px){
 
+    #logo-welcome{
+        width: 100%;
+    }
+
+    #logo-welcome img {
+        width:220px;
+        height: 200px;
+        padding: auto auto;
+        margin-top: 200px;
+    }
+
+    #slogan{
+        font-size: 20px;
+    }
+
     .text-btn-foot {
     display: none;
 }
@@ -216,7 +231,12 @@ h4 {
     width: 90%;
     line-height: 20px;
     text-align: justify;
-    margin: 100px 20px;
+    margin: 100px 40px;
+}
+
+    .section-title {
+    justify-self: center;
+    margin: 40px;
 }
 
     .medium-title {
