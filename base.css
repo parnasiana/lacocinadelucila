@@ -199,3 +199,27 @@ h4 {
     line-height: 36px;
     text-align: justify;
 }
+
+/* phone */
+@media (max-width:376px){
+
+    .text-btn-foot {
+    display: none;
+}
+
+    .title-type {
+    font-size: 30px;
+}
+
+    .border-black{
+    display: none;
+}
+
+    li {
+      margin:auto;
+}
+
+    ul{
+        font-size: 18px;
+    }
+}

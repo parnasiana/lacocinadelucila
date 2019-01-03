@@ -20,7 +20,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     margin: auto 30px auto 0px;
-    width: 100%;
+    width: 915px;
 }
 
 .btn-menu {
@@ -43,9 +43,14 @@ nav {
     width: 100%;
 }
 
-.initial-form {
+.initial-form, form {
     display: flex;
     justify-content: center;
+}
+
+form {
+    flex-direction: column;
+    width:400px;
 }
 
 .contact-me{
@@ -54,6 +59,10 @@ nav {
 
 .section-title, .one{
     margin-left: 50px;
+}
+
+.disabled-desktop {
+    display: none;
 }
 
 .section-title {
@@ -186,3 +195,51 @@ footer {
     width: 50%;
     margin-right: 30px;
 }
+
+
+/* phone */
+@media (max-width:376px){
+
+    body{
+        margin: 0px;
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto 30px auto 0px;
+        width: 100%;
+    }
+
+    .categories{
+        height: 600px;
+    }
+
+    .border-black-cell{
+        border: 6px solid black;
+    }
+
+    .disabled-cellphone, .img-pin-one, .text-desktop{
+        display: none;
+    }
+    .section-title {
+        justify-self: center;
+    }
+    
+    .cellphone-img{
+        height: 600px;
+        background-image: url(img/strong_img_2.png);
+        background-size: cover;
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-content: space-around;
+        height: 600px;
+    }
+    
+}
+
+

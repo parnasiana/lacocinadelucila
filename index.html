@@ -10,10 +10,20 @@
     <link href="base.css" rel="stylesheet">
     <link href="aplication.css" rel="stylesheet">   
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/regular.css" integrity="sha384-IXqJGQI1K0IzdpdY2ASrRbDgPr1rUKzDAA90uL7iX1hPQf6Tkve9Z82TUVWm9aje" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-toEUmnrGu+eq8XUD6ovsr/vFX+R3v9+FUGAnpef+uwGKMCeqZkcZfkXQ0Pls5WS7" crossorigin="anonymous">
 </head>
 <body>
     <nav>
+        <div class="menu-mobile">            
+            <a href="#" class="hamburguer">
+                <i class="far fa-bars"></i>
+            </a>
+            <a href="#" class="nav-element white active" alt="Home">Home</a>
+        </div>
+            
         <div class="menu">
+
             <a href="#" class="nav-element white active" alt="Home">Home</a>
             <a href="products.html" class="nav-element white" alt="Nuestros productos">Nuestros Productos</a>
             <a href="about.html" class="nav-element white" alt="Sobre nosotros">Sobre nosotros</a>
@@ -94,22 +104,27 @@
             <h2 class="title-type white rigth-text medium-title">Ingredientes <span>siempre</span><br>frescos, precios accesibles</h2>
         </div>
         <div class="categories">
+            <div class="disabled-desktop border-black-cell">
                 <h2 class="title-type black section-title">Catering para todo lo que necesites</h2>
-                <li>
+            </div>   
+            <li>
                     <ul>Cumpleaños</ul>
                     <ul>Aniversarios</ul>
                     <ul>Matrimonios</ul>
                     <ul>Babyshowers</ul>
+                    <ul>Graduaciones y licenciaturas</ul>
                     <ul>Coffee Breaks</ul>
                     <ul>Lanzamientos Editoriales</ul>
                     <ul>Eventos Empresariales</ul>
                     <ul>Eventos Especiales</ul>
-                </li>
-                <img src="img/strong_img_2.png" class="img-pin-one" alt="Imágen de canapés">
-                <div class="border-black"></div>
+            </li>
+            <img src="img/strong_img_2.png" class="img-pin-one" alt="Imágen de canapés">
+            <div class="border-black disabled-cellphone"></div>
         </div>
+        <div class="cellphone-img" alt="Imágen de canapés"></div>
     </div>
     <footer>
+        <div class="text-desktop">
         <p class="white foot"><strong>La Cocina de Lucila</strong>
         <br>El Catering para tu evento
 
@@ -120,14 +135,21 @@
         <br>(56) (9) 89061300
 
         </p>
+        </div>
         <div class="social-media">
-            <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila" class="text-btn-foot">
+            <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila">
                 <img src="img/IG_a.png" class="btn-foot">
-                <p class="white">lacocinadelucila</p>
+                <p class="white text-btn-foot">lacocinadelucila</p>
             </a>
-            <a href="#" alt="Botón a la página de Facebook de La Cocina de Lucila" class="text-btn-foot">
+            <a href="#" alt="Botón a la página de Facebook de La Cocina de Lucila">
                 <img src="img/FB_a.png" class="btn-foot">
-                <p class="white">lacocinadelucila</p>
+                <p class="white text-btn-foot">lacocinadelucila</p>
+            </a>
+            <a href="#" alt="Botón enviar WhatsApp de La Cocina de Lucila" class="celphone-btn">
+                <img src="img/wsicon.png" class="btn-foot">
+            </a>
+            <a href="#" alt="Botón enviar correo de La Cocina de Lucila" class="celphone-btn">
+                <img src="img/mailicon.png" class="btn-foot">
             </a>
         </div>
         <a href="#"  alt="Logo de La Cocina de Lucila" class="btn-logo-home">
