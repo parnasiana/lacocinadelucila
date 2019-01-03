@@ -212,23 +212,25 @@ footer {
         width: 100%;
     }
 
-    .categories{
-        height: 600px;
-    }
-
-    .border-black-cell{
-        border: 6px solid black;
-    }
-
     .disabled-cellphone, .img-pin-one, .text-desktop{
         display: none;
     }
     .section-title {
         justify-self: center;
+        margin: 50px;
+    }
+
+    .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
+        height: 600px;
+    }
+
+    .cellphone-img-1{
+        background-image: url(img/strong_img_1.png);
+        background-size: cover;
+        width: 100%;
     }
     
-    .cellphone-img{
-        height: 600px;
+    .cellphone-img-2{
         background-image: url(img/strong_img_2.png);
         background-size: cover;
         width: 100%;
@@ -237,7 +239,6 @@ footer {
     footer {
         flex-direction: column;
         align-content: space-around;
-        height: 600px;
     }
     
 }

@@ -208,12 +208,28 @@ h4 {
 }
 
     .title-type {
-    font-size: 30px;
+    font-size: 28px;
 }
 
-    .border-black{
-    display: none;
+    .one {
+    font-size: 14px;
+    width: 90%;
+    line-height: 20px;
+    text-align: justify;
+    margin: 100px 20px;
 }
+
+    .medium-title {
+        margin: auto;
+    }
+
+    .border-white-cell {
+        border: 6px solid white;
+    }
+
+    .border-black-cell{
+        border: 6px solid black;
+    }
 
     li {
       margin:auto;
