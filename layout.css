@@ -50,11 +50,6 @@ nav {
 
 form {
     flex-direction: column;
-    width:400px;
-}
-
-.contact-me{
-    width: 400px;
 }
 
 .section-title, .one{
@@ -217,15 +212,18 @@ footer {
     }
 
 
-    .welcome, #logo-welcome, .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
+    .welcome, #logo-welcome, .initial-form, .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
         height: 600px;
     }
 
-    .welcome, #logowelcome, .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me, form{
+    .welcome, #logowelcome, .initial-form, .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
         width: 375px;
         margin: 0px auto;
     }
 
+    .form {
+        width: 300px !important;
+    }
 
     .cellphone-img-1{
         background-image: url(img/strong_img_1.png);
