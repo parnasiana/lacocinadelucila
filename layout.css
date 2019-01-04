@@ -29,6 +29,10 @@ nav {
     width: 100%;
 }
 
+.disabled{
+    display: none;
+}
+
 #wrapper{
     display: flex;
     flex-direction: column;
@@ -54,10 +58,6 @@ form {
 
 .section-title, .one{
     margin-left: 50px;
-}
-
-.disabled-desktop {
-    display: none;
 }
 
 .section-title {
@@ -212,12 +212,16 @@ footer {
     }
 
 
-    .welcome, #logo-welcome, .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
+    .welcome, #logo-welcome, .cellphone-img-1, .cellphone-img-2, .categories, footer{
         height: 600px;
     }
 
     .initial-form{
         height: 550px;
+    }
+
+    .strong-img {
+        height: 180px;
     }
 
     .welcome, #logowelcome, .initial-form, .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{

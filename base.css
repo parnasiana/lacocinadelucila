@@ -232,7 +232,7 @@ h4 {
     width: 300px;
     line-height: 20px;
     text-align: justify;
-    margin: 100px 40px;
+    margin: 100px 40px 0px 40px;
 }
 
     .section-title {
@@ -241,11 +241,14 @@ h4 {
 }
 
     .medium-title {
-        margin: auto;
+        text-align: center;
+        margin: 20px;
     }
 
     .border-white-cell {
         border: 6px solid white;
+        margin: 20px;
+        height: 130px;
     }
 
     .border-black-cell{
@@ -258,5 +261,9 @@ h4 {
 
     ul{
         font-size: 18px;
+    }
+
+    .square-title {
+        margin: 0px;
     }
 }
