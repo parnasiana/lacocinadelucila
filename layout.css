@@ -216,14 +216,17 @@ footer {
         display: none;
     }
 
-    .welcome, .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
+
+    .welcome, #logo-welcome, .strong-img, .cellphone-img-1, .cellphone-img-2, .categories, footer{
         height: 600px;
     }
 
-    .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me, form{
+    .welcome, #logowelcome, .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me, form{
         width: 375px;
         margin: 0px auto;
     }
+
+
     .cellphone-img-1{
         background-image: url(img/strong_img_1.png);
         background-size: cover;

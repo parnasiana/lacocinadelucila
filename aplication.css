@@ -115,6 +115,11 @@
     .menu-mobile{
         display: flex;
     }
+
+    .cellphone{
+        display: inline-block;
+    }
+
     .hamburguer{
         display: inline-block;
         color: rgb(255, 255, 255);
@@ -123,13 +128,22 @@
 
     .submit {
         background-color: rgb(0, 0, 0);
-        padding: 30px 0px;
+        padding: 20px 10px;
         border-radius: 50px;
         color: rgb(255, 255, 255);
-        font-size: 18px;
+        font-size: 21px;
         width: 300px;
         text-decoration: none;
-        margin-top: 50px;
+        margin-top: 20px !important;
+    }
+
+    .fa-whatsapp{
+        font-size: 24px;
+    }
+
+    .icon-ws{
+        width: 10px;
+        height: 10px;
     }
 
     .menu{
