@@ -116,6 +116,11 @@
         display: flex;
     }
 
+    .active{
+        border-bottom: none;
+        color: rgb(255, 255, 255);
+    }
+
     .cellphone{
         display: inline-block;
     }
@@ -123,7 +128,7 @@
     .hamburguer{
         display: inline-block;
         color: rgb(255, 255, 255);
-        margin:auto;
+        margin:auto 0px;
     }
 
     .submit {

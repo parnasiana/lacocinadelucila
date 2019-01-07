@@ -165,8 +165,12 @@ ul {
 .text-btn-foot {
     display: flex;
     flex-direction: row;
-    text-decoration: transparent;
+    text-decoration: none;
     font-size: 21px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .circle-img {
@@ -202,6 +206,21 @@ h4 {
 
 /* phone */
 @media (max-width:376px){
+
+    .fa-bars{
+        font-size: 28px;
+    }
+    
+    .nav-element {
+        height: 50px;
+        transition: 0.2s;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-bottom: 4px solid transparent;
+        padding: 5px 30px;
+        margin: auto 0px;
+    }
 
     #logo-welcome{
         width: 100%;

@@ -94,6 +94,11 @@ footer {
     width: 250px;
 }
 
+.btn-foot-desktop{
+    display: flex;
+    flex-direction: row;
+}
+
 .btn-logo-home {
     width: 200px;
     height: 200px;
@@ -203,20 +208,25 @@ footer {
         margin: 0px;
     }
 
+    nav{
+        display: none;
+    }
     .menu-mobile {
+        width: 375px;
+        height: 100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: auto 30px auto 0px;
-       
+        background-color: rgb(0, 0, 0);
     }
 
     .disabled-cellphone, .img-pin-one, .text-desktop{
-        display: none;
+        display: none !important;
     }
 
 
-    .welcome, #logo-welcome, .cellphone-img-2, .categories, footer{
+    .welcome, #logo-welcome, .categories, footer{
         height: 600px;
     }
 
@@ -232,10 +242,10 @@ footer {
         height: 1075px;
     }
 
-    .cellphone-img-1{
+    .cellphone-img-1, .cellphone-img-2{
         height: 222px;
     }
-    
+
     .welcome, #logowelcome, .initial-form, .mission-vision, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
         width: 375px;
         margin: 0px auto;
@@ -252,7 +262,7 @@ footer {
     }
     
     .cellphone-img-2{
-        background-image: url(img/strong_img_2.png);
+        background-image: url(img/strong_img_2_cellphone.png);
         background-size: cover;
 
     }
@@ -262,6 +272,14 @@ footer {
         align-content: space-around;
     }
     
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50px;
+        height: 300px;
+    }
+
 }
 
 
