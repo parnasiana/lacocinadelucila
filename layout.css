@@ -39,8 +39,12 @@ nav {
     margin: 0 auto;
 }
 
-.welcome, #logo-welcome, .initial-form, .mission-vision, .strong-img, .categories {
+.welcome, #logo-welcome, .initial-form, .strong-img, .categories {
     height: 700px;
+}
+
+.mission-vision{
+    height: 1075px;
 }
 
 .welcome, .initial-form, .mission-vision, .strong-img, .categories {

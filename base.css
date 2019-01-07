@@ -246,13 +246,13 @@ h4 {
     }
 
     .border-white-cell {
-        border: 6px solid white;
+        border: 6px solid rgb(255, 255, 255);
         margin: 20px;
         height: 130px;
     }
 
-    .border-black-cell{
-        border: 6px solid black;
+    .border-black-cell, {
+        border: 6px solid rgb(0, 0, 0);
     }
 
     li {
@@ -266,4 +266,8 @@ h4 {
     .square-title {
         margin: 0px;
     }
+
+    .mission-vision{
+        background-image: url(img/BackgroundImgs/Background_cell_2.png);
+
 }
