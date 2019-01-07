@@ -88,7 +88,7 @@ p, ul, h4, .search, .submit, .send {
 
 .one {
     font-size: 21px;
-    width: 50%;
+    width: 700px;
     line-height: 32px;
     text-align: justify;
     display: inline-block;
@@ -272,9 +272,6 @@ h4 {
     }
 
     .mission-vision{
-        background-image: url(img/BackgroundImgs/Background_cell_2.png);
+        background-image: url(img/BackgroundImgs/Background_cell_2.png) !important;
 
-    .rigth-text{
-        display: none;
-    }
 }

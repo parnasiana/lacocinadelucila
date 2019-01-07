@@ -39,12 +39,12 @@ nav {
     margin: 0 auto;
 }
 
-.welcome, #logo-welcome, .initial-form, .strong-img, .categories {
+.welcome, #logo-welcome, .initial-form,  .strong-img, .categories {
     height: 700px;
 }
 
 .mission-vision{
-    height: 1075px;
+    height: 100%;
 }
 
 .welcome, .initial-form, .mission-vision, .strong-img, .categories {
@@ -228,7 +228,11 @@ footer {
         height: 180px;
     }
 
-    .welcome, #logowelcome, .initial-form, .mission-vission, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
+    .mission-vision{
+        height: 1075px;
+    }
+
+    .welcome, #logowelcome, .initial-form, .mission-vision, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
         width: 375px;
         margin: 0px auto;
     }
