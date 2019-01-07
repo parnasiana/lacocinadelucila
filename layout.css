@@ -225,6 +225,9 @@ footer {
         display: none !important;
     }
 
+    .disabled{
+        display: inline-block;
+    }
 
     .welcome, #logo-welcome, .categories, footer{
         height: 600px;
