@@ -211,7 +211,7 @@ footer {
     nav{
         display: none;
     }
-    .menu-mobile {
+    #menu-mobile {
         width: 375px;
         height: 100px;
         display: flex;
@@ -249,7 +249,7 @@ footer {
         height: 222px;
     }
 
-    .welcome, #logowelcome, .initial-form, .mission-vision, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
+    .welcome, #logowelcome, .initial-form, .mission-vision, .cellphone-img-1, .cellphone-img-2, #menu-mobile, .contact-me,{
         width: 375px;
         margin: 0px auto;
     }

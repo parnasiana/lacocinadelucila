@@ -101,7 +101,7 @@
     margin-top: 85px;
 }
 
-.menu-mobile{
+#menu-mobile{
     display: none;
 }
 
@@ -112,7 +112,7 @@
 /* phone */
 @media (max-width:376px){
 
-    .menu-mobile{
+    #menu-mobile{
         display: flex;
     }
 
