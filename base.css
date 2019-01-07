@@ -225,6 +225,7 @@ h4 {
 
     .title-type {
     font-size: 24px;
+    line-height: 32px;
 }
 
     .one {
@@ -249,6 +250,8 @@ h4 {
         border: 6px solid rgb(255, 255, 255);
         margin: 20px;
         height: 130px;
+        display: flex;
+        justify-content: center;
     }
 
     .border-black-cell, {
@@ -264,10 +267,14 @@ h4 {
     }
 
     .square-title {
-        margin: 0px;
+        text-align: center;
+        margin-top: 30px;
     }
 
     .mission-vision{
         background-image: url(img/BackgroundImgs/Background_cell_2.png);
 
+    .rigth-text{
+        display: none;
+    }
 }
