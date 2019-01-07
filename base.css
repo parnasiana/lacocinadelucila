@@ -248,22 +248,29 @@ h4 {
 
     .border-white-cell {
         border: 6px solid rgb(255, 255, 255);
+    }
+
+    .border-black-cell {
+        border: 6px solid rgb(0, 0, 0);
+        
+    }
+
+    .border-black-cell, .border-white-cell{
         margin: 20px;
         height: 130px;
         display: flex;
         justify-content: center;
     }
 
-    .border-black-cell, {
-        border: 6px solid rgb(0, 0, 0);
+    li {
+        margin: 0px 80px
+    
     }
 
-    li {
-      margin:auto;
-}
-
-    ul{
-        font-size: 18px;
+    ul {
+        list-style: square;
+        display: list-item;
+        font-size: 16px;
     }
 
     .square-title {

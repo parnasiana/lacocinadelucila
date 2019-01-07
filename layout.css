@@ -216,7 +216,7 @@ footer {
     }
 
 
-    .welcome, #logo-welcome, .cellphone-img-1, .cellphone-img-2, .categories, footer{
+    .welcome, #logo-welcome, .cellphone-img-2, .categories, footer{
         height: 600px;
     }
 
@@ -232,6 +232,10 @@ footer {
         height: 1075px;
     }
 
+    .cellphone-img-1{
+        height: 222px;
+    }
+    
     .welcome, #logowelcome, .initial-form, .mission-vision, .cellphone-img-1, .cellphone-img-2, .menu-mobile, .contact-me,{
         width: 375px;
         margin: 0px auto;
@@ -242,7 +246,7 @@ footer {
     }
 
     .cellphone-img-1{
-        background-image: url(img/strong_img_1.png);
+        background-image: url(img/strong_img_1_cellphone.png);
         background-size: cover;
 
     }
