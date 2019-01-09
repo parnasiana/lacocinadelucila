@@ -186,7 +186,6 @@
         font-size: 20px;
         width: 280px;
         margin: 0, auto;
-
     }
 
     .cellphone-btn{
@@ -199,7 +198,7 @@
 }
 
 /* another dispositives*/
-@media (min-width: 401px) and (max-width: 1400px){
+@media (min-width: 401px) and (max-width: 1000px){
     .hamburguer{
         display: inline-block;
         color: rgb(255, 255, 255);
@@ -247,15 +246,34 @@
         background-color: rgb(0, 0, 0);
         padding: 20px 10px;
         border-radius: 50px;
+        border: 2px solid white;
         color: rgb(255, 255, 255);
         font-size: 21px;
         text-decoration: none;
         margin-left: 20px;
         width: 35%;
-        align-self: flex-end;
+        align-self: center;
         font-family: Comfortaa;
         text-align: center;
     }
+
+    .find-me, .find-me::placeholder, option, .comuna {
+        font-size: 18px;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .submit {
+        padding: 15px 0px;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        width: 100%;
+        text-decoration: none;
+        margin: 20px 0;
+    }
+        
 }
 
 

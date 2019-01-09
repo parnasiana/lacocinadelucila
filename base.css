@@ -291,7 +291,7 @@ h4 {
 }
 
 /* another dispositives*/
-@media (min-width: 401px) and (max-width: 1400px){
+@media (min-width: 401px) and (max-width: 1000px){
     .fa-bars{
         font-size: 28px;
     }
@@ -311,11 +311,15 @@ h4 {
     #logo-welcome img{
         width: 205px;
         height: 175px;
-        margin-top: 50px;
+        margin-top: 65px;
     }
 
     #slogan {
         font-size: 21px;
+    }
+
+    .title-type{
+        font-size: 32px;
     }
 
 }

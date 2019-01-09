@@ -340,7 +340,7 @@ footer {
 }
 
 /* another dispositives*/
-@media (min-width: 401px) and (max-width: 1400px){
+@media (min-width: 401px) and (max-width: 1000px){
     body{
         margin: 0px;
         width: 100%;
@@ -370,17 +370,28 @@ footer {
         text-align: right;   
     }
 
-    .welcome {
-        height: 300px;
+    .welcome, .initial-form {
+        height: 345px;
+    }
+
+    .welcome{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    #logo-welcome, .initial-form{
+        height: 100%;
     }
 
     .tablet{
         margin-right: 25px;
         margin-bottom: 25px;
     }
+    .contact-me{
+        width: 40%;
+    }
+
 }
 
 
