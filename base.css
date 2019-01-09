@@ -99,25 +99,21 @@ p, ul, h4, .search, .submit, .send {
 }
 
 .border-white {
-    position: absolute;
     border: 6px solid white;
-    width: 600px;
     height: 350px;
-    z-index: 2;
-    margin-top: 180px;
-    margin-left: 120px;
+    width: 600px;
+    transform: translate(-50px,-140px);
 }
 
 .img-pin-one {
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 150px;
-    z-index: 1;
+    transform: translate(0px,180px);
+
 }
 
 .medium-title{
-    margin-top: 250px;
-    margin-right: 150px;
+    width: 420px;
+    height: 150px;
+
 }
 
 li {
