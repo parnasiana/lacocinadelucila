@@ -282,7 +282,8 @@ h4 {
 
     .square-title {
         text-align: center;
-        margin-top: 30px;
+        margin: 38px;
+        align-self: center;
     }
 
     .mission-vision{

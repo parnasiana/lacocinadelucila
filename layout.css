@@ -268,7 +268,7 @@ footer {
         display: inline-block;
     }
 
-    .welcome, #logo-welcome, .categories, footer{
+    .welcome, #logo-welcome, footer{
         height: 600px;
     }
 
@@ -284,6 +284,10 @@ footer {
         height: 1075px;
     }
 
+    .categories{
+        height: 700px;
+    }
+    
     .cellphone-img-1, .cellphone-img-2{
         height: 222px;
     }
@@ -307,6 +311,15 @@ footer {
         background-image: url(img/strong_img_2_cellphone.png);
         background-size: cover;
 
+    }
+
+    .categories-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        height: 100%;;
     }
 
     footer {
