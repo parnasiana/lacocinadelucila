@@ -110,11 +110,8 @@
 }
 
 /* phone */
-@media (max-width:376px){
+@media (max-width:400px){
 
-    #menu-mobile{
-        display: flex;
-    }
 
     .active{
         border-bottom: none;
@@ -128,7 +125,10 @@
     .hamburguer{
         display: inline-block;
         color: rgb(255, 255, 255);
-        margin:auto 0px;
+        margin: auto 25px;
+    }
+    .nav-element:hover{
+        color: rgb(255, 255, 255);
     }
 
     .menu-open{

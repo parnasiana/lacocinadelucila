@@ -226,11 +226,12 @@ footer {
 }
 
 
-/* phone */
-@media (max-width:376px){
+/* phone verticall*/
+@media (max-width:400px){
 
     body{
         margin: 0px;
+        width: 100%;
     }
 
     nav{
@@ -238,7 +239,7 @@ footer {
     }
     #menu-mobile {
         width: 100%;
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         justify-content: center;
         margin: auto 30px auto 0px;
@@ -247,17 +248,18 @@ footer {
     .top-menu-mobile{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .menu-categories {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: right;
     }
 
     .temporal-menu {
         color:rgb(255, 255, 255);
+        margin-right: 75px;
     }
 
     .disabled-cellphone, .img-pin-one, .img-pin-two, .text-desktop{
@@ -333,6 +335,39 @@ footer {
         justify-content: space-around;
         width: 50px;
         height: 300px;
+    }
+
+}
+
+/* phone horizontal*/
+@media (min-width: 401px){
+
+    body{
+        margin: 0px;
+        width: 100%;
+    }
+
+    nav{
+        display: none;
+    }
+    #menu-mobile {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto 30px auto 0px;
+        background-color: rgb(0, 0, 0);
+    }
+    .top-menu-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .menu-categories {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
     }
 
 }

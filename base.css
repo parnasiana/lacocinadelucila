@@ -193,26 +193,28 @@ h4 {
 }
 
 /* phone */
-@media (max-width:376px){
+@media (max-width:400px){
 
     .fa-bars{
         font-size: 28px;
     }
     
     .nav-element {
-        height: 50px;
+        height: auto;
         transition: 0.2s;
-        font-size: 30px;
+        font-size: 28px;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        border-bottom: 4px solid transparent;
-        padding: 5px 30px;
-        margin: auto 0px;
+        padding: 0;
+    }
+
+    .menu-categories{
+        background-color: rgba(255, 255, 255, 0.185);
     }
 
     #logo-welcome{
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.185);
+        background-color: rgba(255, 255, 255, 0.1);
     }
 
     #logo-welcome img {

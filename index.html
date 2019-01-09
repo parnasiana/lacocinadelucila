@@ -24,16 +24,15 @@
     </nav>
     <div id="menu-mobile">
         <div class="top-menu-mobile">           
+        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
         <a href="#" class="hamburguer" @click="isClosed=!isClosed">
             <i class="far fa-bars"></i>
         </a>
-        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
-        </div> 
+        </div>
         <div class="menu-categories" v-bind:class="{ 'menu-closed': isClosed, 'menu-open': !isClosed }">
-            <a href="#" class="temporal-menu">Nuestros Productos</a>
-            <a href="#" class="temporal-menu">Nuestros Productos</a>
-            <a href="#" class="temporal-menu">Nuestros Productos</a>
-            <a href="#" class="temporal-menu">Nuestros Productos</a>
+            <a href="#" class="nav-element white temporal-menu">Nuestros Productos</a>
+            <a href="#" class="nav-element white temporal-menu">Sobre Nosotros</a>
+            <a href="#" class="nav-element white temporal-menu">Contáctanos</a>
         </div>
     </div>
     <div id="wrapper">
@@ -124,7 +123,7 @@
         <div class="cellphone-img-1" alt="Imágen de Sandwich"></div>
         <div class="categories">
             <div class="border-black-cell">
-                <h2 class="title-type black square-title section-title">Catering para todo lo que necesites</h2>
+                <h2 class="title-type black square-title section-title">Catering para todos tus eventos</h2>
             </div>   
             <div class="categories-img">
                 <li>
