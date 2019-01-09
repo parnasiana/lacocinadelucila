@@ -117,10 +117,9 @@ p, ul, h4, .search, .submit, .send {
 }
 
 li {
-    margin-left: 150px;
-    margin-top: 100px;
-    display: inline-block;
-
+    display: block;
+    margin-bottom: 130px;
+    margin-left: 80px;
 }
 
 ul {
@@ -134,23 +133,16 @@ ul {
 }
 
 .img-pin-two {
-    display: inline-block;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 180px;
-    z-index: 1;
+    width: 600px;
+    height: 350px;
+    transform:translate(85px,100px);
 }
 
 .border-black {
-    display: inline-block;
-    position: absolute;
     border: 6px solid black;
-    width: 600px;
     height: 350px;
-    z-index: 2;
-    margin-top: 100px;
-    margin-left: 100px;
-
+    width: 600px;
+    transform:translate(50px,-225px);
 }
 
 .foot {
