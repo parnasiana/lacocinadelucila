@@ -22,11 +22,19 @@
             <a href="contact.html" class="nav-element white" alt="Contactanos">Contáctanos</a>
         </div>
     </nav>
-    <div id="menu-mobile">            
-        <a href="#" class="hamburguer">
+    <div id="menu-mobile">
+        <div class="top-menu-mobile">           
+        <a href="#" class="hamburguer" @click="isClosed=!isClosed">
             <i class="far fa-bars"></i>
         </a>
-        <a href="#" class="nav-element white active" alt="Inicio">Inicio</a>
+        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
+        </div> 
+        <div class="menu-categories" v-bind:class="{ 'menu-closed': isClosed, 'menu-open': !isClosed }">
+            <a href="#" class="temporal-menu">Nuestros Productos</a>
+            <a href="#" class="temporal-menu">Nuestros Productos</a>
+            <a href="#" class="temporal-menu">Nuestros Productos</a>
+            <a href="#" class="temporal-menu">Nuestros Productos</a>
+        </div>
     </div>
     <div id="wrapper">
         <div class="welcome">
@@ -143,11 +151,11 @@
         </p>
         </div>
         <div class="social-media">
-            <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila" class="btn-foot-desktop" target="blank">
+            <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila" class="btn-foot-desktop" target="_blank">
                 <img src="img/IG_a.png" class="btn-foot">
                 <p class="white text-btn-foot">lacocinadelucila</p>
             </a>
-            <a href="https://www.facebook.com/lacocinadelucila" alt="Botón a la página de Facebook de La Cocina de Lucila" class="btn-foot-desktop" target="blank">
+            <a href="https://www.facebook.com/lacocinadelucila" alt="Botón a la página de Facebook de La Cocina de Lucila" class="btn-foot-desktop" target="_blank">
                 <img src="img/FB_a.png" class="btn-foot">
                 <p class="white text-btn-foot">lacocinadelucila</p>
             </a>
@@ -162,5 +170,8 @@
             <img src="img/Logo_Home_a.png">
         </a>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="./menu.js"></script>
+
 </body>
 </html>
