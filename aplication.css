@@ -112,6 +112,10 @@
     display: none;
 }
 
+.disabled-desktop{
+    display: none;
+}
+
 /* phone */
 @media (max-width:400px){
 
@@ -189,6 +193,9 @@
         display: flex;
     }
 
+    .tablet{
+        display: none;
+    }
 }
 
 /* another dispositives*/
@@ -227,7 +234,28 @@
         height: 0;
         transition: 1s;
     }
+    
+    .cellphone{
+        display: none;
+    }
 
+    .tablet{
+        display: inline-block;
+    }
+
+    .btn-tablet {
+        background-color: rgb(0, 0, 0);
+        padding: 20px 10px;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 21px;
+        text-decoration: none;
+        margin-left: 20px;
+        width: 35%;
+        align-self: flex-end;
+        font-family: Comfortaa;
+        text-align: center;
+    }
 }
 
 

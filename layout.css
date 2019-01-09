@@ -369,6 +369,18 @@ footer {
         flex-direction: column;
         text-align: right;   
     }
+
+    .welcome {
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tablet{
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
 }
 
 

@@ -300,4 +300,22 @@ h4 {
         background-color: rgba(255, 255, 255, 0.185);
     }
 
+    #logo-welcome {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.5);
+        align-items: center;
+    }
+
+    #logo-welcome img{
+        width: 205px;
+        height: 175px;
+        margin-top: 50px;
+    }
+
+    #slogan {
+        font-size: 21px;
+    }
+
 }
