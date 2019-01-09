@@ -322,4 +322,15 @@ h4 {
         font-size: 32px;
     }
 
+    .one{
+    font-size: 14px;
+    width: 50%;
+    line-height: 16px;
+    text-align: justify;
+    display: inline-block;
+    }
+
+    .mission-vision{
+        background-size: contain;
+    }
 }

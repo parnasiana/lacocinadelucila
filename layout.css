@@ -388,8 +388,22 @@ footer {
         margin-right: 25px;
         margin-bottom: 25px;
     }
+
     .contact-me{
         width: 40%;
+    }
+
+    .section-title {
+        margin-top: 28px;
+    }
+
+    .mission-vision{
+        width: 100%;
+    }
+
+    .one{
+        margin-top:10px;
+        margin-bottom: 50px;
     }
 
 }
