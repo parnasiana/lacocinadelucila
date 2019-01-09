@@ -8,10 +8,6 @@
     padding: 5px 30px;
 }
 
-.nav-element:hover {
-    color: rgb(193, 39, 45);
-}
-
 .welcome {
     background-image: url(img/BackgroundImgs/Background1.png);
     background-size: cover;
@@ -205,7 +201,7 @@ h4 {
         font-size: 28px;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        padding: 0;
+        padding: 10px 0;
     }
 
     .menu-categories{
@@ -230,12 +226,12 @@ h4 {
 
     .text-btn-foot {
     display: none;
-}
+    }
 
     .title-type {
     font-size: 24px;
     line-height: 32px;
-}
+    }
 
     .one {
     font-size: 14px;
@@ -243,12 +239,12 @@ h4 {
     line-height: 20px;
     text-align: justify;
     margin: 100px 40px 0px 40px;
-}
+    }
 
     .section-title {
     justify-self: center;
     margin: 40px;
-}
+    }
 
     .medium-title {
         text-align: center;
@@ -290,5 +286,18 @@ h4 {
 
     .mission-vision{
         background-image: url(img/BackgroundImgs/Background_cell_2.png) !important;
+
+    }
+}
+
+/* another dispositives*/
+@media (min-width: 401px) and (max-width: 1400px){
+    .fa-bars{
+        font-size: 28px;
+    }
+
+    .menu-categories{
+        background-color: rgba(255, 255, 255, 0.185);
+    }
 
 }

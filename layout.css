@@ -339,9 +339,8 @@ footer {
 
 }
 
-/* phone horizontal*/
-@media (min-width: 401px){
-
+/* another dispositives*/
+@media (min-width: 401px) and (max-width: 1400px){
     body{
         margin: 0px;
         width: 100%;
@@ -350,6 +349,7 @@ footer {
     nav{
         display: none;
     }
+
     #menu-mobile {
         width: 100%;
         display: flex !important;
@@ -358,18 +358,17 @@ footer {
         margin: auto 30px auto 0px;
         background-color: rgb(0, 0, 0);
     }
+
     .top-menu-mobile{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
     }
-
-    .menu-categories {
+    .menu-categories{
         display: flex;
         flex-direction: column;
-        text-align: right;
+        text-align: right;   
     }
-
 }
 
 
