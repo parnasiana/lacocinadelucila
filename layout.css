@@ -346,6 +346,10 @@ footer {
         display:none;
     }
 
+    .img-border-1 {
+        display: none;
+    }
+
 }
 
 /* another dispositives*/
