@@ -252,7 +252,7 @@ h4 {
     }
 
     .border-white-cell {
-        border: 6px solid rgb(255, 255, 255);
+        border: 4px solid rgb(255, 255, 255);
     }
 
     .border-black-cell {
@@ -331,6 +331,17 @@ h4 {
     }
 
     .mission-vision{
-        background-size: contain;
+        background-image: url(img/BackgroundImgs/Background_cell_hor_2.png);
+        background-size: cover;
+    }
+
+    .border-white {
+        border: 4px solid white;
+        height: 220px;
+        width: 400px;
+        transform: translate(-20px,-128px);
+    }
+    .img-pin-one{
+        transform: translate(10px,135px);
     }
 }
