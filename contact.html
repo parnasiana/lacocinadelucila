@@ -10,6 +10,8 @@
     <link href="base.css" rel="stylesheet">
     <link href="aplication.css" rel="stylesheet">   
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
     <nav>
@@ -20,6 +22,19 @@
             <a href="contact.html" class="nav-element white active" alt="Contactanos">Contáctanos</a>
         </div>
     </nav>
+    <div id="menu-mobile">
+        <div class="top-menu-mobile">           
+        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
+        <a href="#" class="hamburguer" @click="isClosed=!isClosed">
+            <i class="far fa-bars"></i>
+        </a>
+        </div>
+        <div class="menu-categories" v-bind:class="{ 'menu-closed': isClosed, 'menu-open': !isClosed }">
+            <a href="products.html" class="nav-element white temporal-menu">Nuestros Productos</a>
+            <a href="about.html" class="nav-element white temporal-menu">Sobre Nosotros</a>
+            <a href="contact.html" class="nav-element white temporal-menu">Contáctanos</a>
+        </div>
+    </div>
     <div id="wrapper">
         <div class="under-nav">
             <h2 class="title-type black section-title">Queremos conversar contigo sobre tu evento</h2>
@@ -137,5 +152,7 @@
             <img src="img/Logo_Home_a.png">
         </a>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="./menu.js"></script>
 </body>
 </html>        
