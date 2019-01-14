@@ -144,25 +144,46 @@ footer {
 }
 
 .detail-product {
+    width:100%;
     border: 6px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.size-gallery{
+.row-gall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle-img1{
+    background-image: url(img/GP_Sweet_1.png);
+}
+
+.circle-img2{
+    background-image: url(img/GP_Sweet_2.png);
+}
+
+.circle-img3{
+    background-image: url(img/GP_Sweet_3.png);
+}
+
+.circle-img4{
+    background-image: url(img/GP_Sweet_4.png);
+}
+
+.circle-img1, .circle-img2, .circle-img3, .circle-img4{
     width: 250px;
     height: 250px;
+    border-radius: 50%;
 }
 
 .gallery-product {
-    padding: 25px;
-    margin: 0px;
-    width: 525px;
-    height: 525px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .text-detail {
