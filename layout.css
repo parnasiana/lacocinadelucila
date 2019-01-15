@@ -144,7 +144,6 @@ footer {
 }
 
 .detail-product {
-    width:100%;
     border: 6px solid black;
     display: flex;
     flex-direction: row;
@@ -177,6 +176,8 @@ footer {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .gallery-product {
