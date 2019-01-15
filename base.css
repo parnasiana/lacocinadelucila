@@ -157,12 +157,6 @@ a {
     text-decoration: none;
 }
 
-.circle-img img {
-    position: absolute;
-    object-fit: cover;
-    margin: auto;
-}
-
 .detail-title-section {
     font-size: 32px;
 }

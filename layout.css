@@ -156,23 +156,71 @@ footer {
     justify-content: space-between;
 }
 
-.circle-img1{
+.img1{
     background-image: url(img/GP_Sweet_1.png);
 }
 
-.circle-img2{
+.img2{
     background-image: url(img/GP_Sweet_2.png);
 }
 
-.circle-img3{
+.img3{
     background-image: url(img/GP_Sweet_3.png);
 }
 
-.circle-img4{
+.img4{
     background-image: url(img/GP_Sweet_4.png);
 }
 
-.circle-img1, .circle-img2, .circle-img3, .circle-img4{
+.img5{
+    background-image: url(/img/GP_Sweet_5.png);
+}
+
+.img6{
+    background-image: url(img/GP_Sweet_6.png);
+}
+
+.img7{
+    background-image: url(img/GP_Sweet_7.png);
+}
+
+.img8{
+    background-image: url(img/GP_Sweet_8.png);
+}
+
+.img9{
+    background-image: url(img/GP_Salty_1.png);
+}
+
+.img10{
+    background-image: url(img/GP_Salty_2.png);
+}
+
+.img11{
+    background-image: url(img/GP_Salty_3.png);
+}
+
+.img12{
+    background-image: url(img/GP_Salty_4.png);
+}
+
+.img13{
+    background-image: url(img/GP_Salty_5.png);
+}
+
+.img14{
+    background-image: url(img/GP_Salty_6.png);
+}
+
+.img15{
+    background-image: url(img/GP_Salty_7.png);
+}
+
+.img16{
+    background-image: url(img/GP_Salty_8.png);
+}
+
+.circle{
     width: 250px;
     height: 250px;
     border-radius: 50%;
