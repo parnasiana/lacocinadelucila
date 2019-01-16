@@ -16,23 +16,23 @@
 <body>
     <nav>
         <div class="menu">
-            <a href="index.html" class="nav-element white" alt="Home">Home</a>
+            <a href="index.html" class="nav-element white" alt="Home">Inicio</a>
             <a href="products.html" class="nav-element white" alt="Nuestros productos">Nuestros Productos</a>
             <a href="about.html" class="nav-element white" alt="Sobre nosotros">Sobre nosotros</a>
-            <a href="contact.html" class="nav-element white active" alt="Contactanos">Contáctanos</a>
+            <a href="#" class="nav-element white active" alt="Contactanos">Contáctanos</a>
         </div>
     </nav>
     <div id="menu-mobile">
         <div class="top-menu-mobile">           
-        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
+        <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Contáctanos</a>
         <a href="#" class="hamburguer" @click="isClosed=!isClosed">
             <i class="far fa-bars"></i>
         </a>
         </div>
         <div class="menu-categories" v-bind:class="{ 'menu-closed': isClosed, 'menu-open': !isClosed }">
+            <a href="index.html" class="nav-element white temporal-menu">Inicio</a>
             <a href="products.html" class="nav-element white temporal-menu">Nuestros Productos</a>
             <a href="about.html" class="nav-element white temporal-menu">Sobre Nosotros</a>
-            <a href="contact.html" class="nav-element white temporal-menu">Contáctanos</a>
         </div>
     </div>
     <div id="wrapper">
@@ -128,29 +128,37 @@
         </div>
     </div>
     <footer>
-        <p class="white foot"><strong>La Cocina de Lucila</strong>
-        <br>El Catering para tu evento
-
-        <br><br>Correo:
-        <br>contacto@lacocinadelucila.cl
-
-        <br><br>Teléfono de Contacto:
-        <br>(56) (9) 89061300
-
-        </p>
-        <div class="social-media">
-            <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila" class="text-btn-foot">
-                <img src="img/IG_a.png" class="btn-foot">
-                <p class="white">lacocinadelucila</p>
+        <div class="text-desktop">
+            <p class="white foot"><strong>La Cocina de Lucila</strong>
+            <br>El Catering para tu evento
+    
+            <br><br>Correo:
+            <br>contacto@lacocinadelucila.cl
+    
+            <br><br>Teléfono de Contacto:
+            <br>(56) (9) 89061300
+    
+            </p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/lacocinadelucila/" alt="Botón al Instagram de La Cocina de Lucila" class="btn-foot-desktop" target="_blank">
+                    <img src="img/IG_a.png" class="btn-foot">
+                    <p class="white text-btn-foot">lacocinadelucila</p>
+                </a>
+                <a href="https://www.facebook.com/lacocinadelucila" alt="Botón a la página de Facebook de La Cocina de Lucila" class="btn-foot-desktop" target="_blank">
+                    <img src="img/FB_a.png" class="btn-foot">
+                    <p class="white text-btn-foot">lacocinadelucila</p>
+                </a>
+                <a href="https://wa.me/56989061300" alt="Botón enviar WhatsApp de La Cocina de Lucila" class="celphone-btn disabled">
+                    <img src="img/wsicon.png" class="btn-foot">
+                </a>
+                <a href="mailto:contacto@lacocinadelucila.cl" alt="Botón enviar correo de La Cocina de Lucila" class="celphone-btn disabled">
+                    <img src="img/mailicon.png" class="btn-foot">
+                </a>
+            </div>
+            <a href="#"  alt="Logo de La Cocina de Lucila" class="btn-logo-home">
+                <img src="img/Logo_Home_a.png">
             </a>
-            <a href="#" alt="Botón a la página de Facebook de La Cocina de Lucila" class="text-btn-foot">
-                <img src="img/FB_a.png" class="btn-foot">
-                <p class="white">lacocinadelucila</p>
-            </a>
-        </div>
-        <a href="#"  alt="Logo de La Cocina de Lucila" class="btn-logo-home">
-            <img src="img/Logo_Home_a.png">
-        </a>
     </footer> 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
     <script src="./menu.js"></script>

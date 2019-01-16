@@ -267,9 +267,17 @@ footer {
     justify-content: space-between;
 }
 
-.profile-photo {
+.profile-photoB, .profile-photoD {
     width: 400px;
     height: 400px;
+}
+
+.profile-photoB{
+    background-image: url(img/About_Bárbara.png);
+}
+
+.profile-photoD{
+    background-image: url(img/About_Diego.png);
 }
 
 .big-form {
@@ -422,7 +430,7 @@ footer {
 
     .card-section {
         width: 90%;  
-        margin: none;
+        margin: 50px auto !important;
     }
 
     .detail-product {
@@ -452,6 +460,27 @@ footer {
         width: 100%;
         padding: 0;
         align-items: center;
+    }
+
+    .salty{
+        margin-bottom:50px;
+    }
+
+    .btn-foot{
+        margin-right: 0;
+    }
+
+    .about-info{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .profile-photoB, .profile-photoD {
+        width: 100%;
+    }
+
+    .profiles{
+        margin-right: 0;
     }
     
 }
