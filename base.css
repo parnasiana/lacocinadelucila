@@ -124,7 +124,7 @@ ul {
     font-size: 21px;
 }
 
-.one, ul, .detail-text-section {
+.one, ul, .-section {
     color: rgb(112, 112, 112);
 }
 
@@ -283,6 +283,29 @@ h4 {
     .mission-vision{
         background-image: url(img/BackgroundImgs/Background_cell_2.png) !important;
 
+    }
+
+    .detail-title-section {
+        font-size: 21px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .detail-text-section {
+        font-size: 12px;
+        margin-bottom: 30px;
+        line-height: 14px;
+        text-align: justify;
+        width: 280px;
+    }
+
+    .price-product {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 21px;
+        text-align: center;
+        padding: 0;
+        width: 100%;
     }
 }
 

@@ -420,6 +420,40 @@ footer {
         display: none;
     }
 
+    .card-section {
+        width: 90%;  
+        margin: none;
+    }
+
+    .detail-product {
+        border: 4px solid black;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .gallery-product{
+        margin:0;
+    }
+
+    .circle{
+        border-radius: 0;
+        margin:0;
+    }
+     .under-nav{
+         margin-top: 0;
+     }
+
+     #wrapper{
+         justify-content: center;
+     }
+
+     .text-detail {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    
 }
 
 /* another dispositives*/
