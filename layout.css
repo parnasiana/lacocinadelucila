@@ -615,6 +615,23 @@ footer {
         margin-right:0;
     }
 
+    .about-info{
+        padding:0;
+    }
+
+    .profiles{
+        margin-right: 0;
+        margin-top: 10px;
+        justify-content: flex-start;
+        }
+
+    .profile-photoB, .profile-photoD{
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
     
 }
 
