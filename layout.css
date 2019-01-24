@@ -318,6 +318,10 @@ footer {
         width: 100%;
     }
 
+    #follow-menu{
+        display: fixed !important;
+    }
+
     nav{
         display: none;
     }
@@ -486,6 +490,16 @@ footer {
     }
     .about-info{
         margin-bottom: 30px;
+    }
+    
+    .inputs-info {
+        flex-direction: column;
+    }
+
+    .inputs-group {
+        width: 100%;
+        margin: auto;
+        align-content: center;
     }
     
 }
