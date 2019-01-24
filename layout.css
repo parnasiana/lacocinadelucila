@@ -653,6 +653,18 @@ footer {
         border-radius: 50%;
     }
 
+    .inputs-group {
+        width: 100%;
+        margin: auto;
+        align-content: center;
+    }
+
+    .inputs-info {
+        width: 90%;
+        margin: auto;
+    }
+    
+
     
 }
 
