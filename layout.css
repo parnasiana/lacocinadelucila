@@ -664,6 +664,13 @@ footer {
         margin: auto;
     }
     
+    
+    .write-section {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-right: 0;
+    }
 
     
 }
