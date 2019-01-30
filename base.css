@@ -28,7 +28,7 @@
     margin-top: 300px;
 }
 
-.nav-element, #slogan, .title-type, .detail-title-section, .price-product{
+.nav-element, #slogan, .title-type, .detail-title-section, .price-product, .title-thanks{
     font-family: Pacifico;
 }
 
@@ -51,7 +51,7 @@
     font-weight: normal;
 }
 
-.title-type {
+.title-type, .title-thanks{
     font-size: 40px;
 }
 
@@ -60,7 +60,7 @@
     text-align: left;
 }
 
-.submit, .send {
+.submit, .send, .back {
     text-align: center
 }
 
@@ -78,7 +78,7 @@ span, .detail-title-section, .red{
     background-size: cover;
 }
 
-p, ul, h4, .search, .submit, .send {
+p, ul, h4, .search, .submit, .send, .back {
     font-family: Comfortaa;
 }
 
@@ -182,6 +182,10 @@ h4 {
     margin-left: 30px;
     line-height: 36px;
     text-align: justify;
+}
+
+.back-img-thanks{
+    background-image: url(img/BackgroundImgs/Background1.png);
 }
 
 /* phone */

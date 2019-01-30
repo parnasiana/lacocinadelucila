@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-site-verification" content="w0Oug3cLPU7iQ56lWP6K1YN7gR8OTt7oBG4kdmUVkH8" />
+    <title>La Cocina de Lucila | El Catering para tu evento</title>
+    <link rel="icon" type="img/png" href="img/img_titleBarLogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico" rel="stylesheet">
+    <link href="layout.css" rel="stylesheet">
+    <link href="base.css" rel="stylesheet">
+    <link href="aplication.css" rel="stylesheet">   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a href="index.html" class="nav-element white" alt="Inicio">Inicio</a>
+            <a href="products.html" class="nav-element white" alt="Nuestros productos">Nuestros Productos</a>
+            <a href="about.html" class="nav-element white" alt="Sobre nosotros">Sobre nosotros</a>
+            <a href="contact.html" class="nav-element white" alt="Contactanos">Contáctanos</a>
+        </div>
+    </nav>
+        <div id="menu-mobile">
+            <div class="top-menu-mobile">           
+                <a href="#" class="nav-element white active" @click="isClosed=!isClosed">Inicio</a>
+                <a href="#" class="hamburguer" @click="isClosed=!isClosed">
+                    <i class="far fa-bars"></i>
+                </a>
+            </div>
+            <div class="menu-categories" v-bind:class="{ 'menu-closed': isClosed, 'menu-open': !isClosed }">
+                <a href="products.html" class="nav-element white temporal-menu">Nuestros Productos</a>
+                <a href="about.html" class="nav-element white temporal-menu">Sobre Nosotros</a>
+                <a href="contact.html" class="nav-element white temporal-menu">Contáctanos</a>
+            </div>
+        </div>
+    <div id="wrapper">
+        <div class="back-img-thanks">
+            <div class="msg-thanks">
+                 <p class="title-thanks white">¡Gracias por enviarnos tu solicitud!</p>
+                <p class="subtitle-thanks">Recibimos tu información y te contactaremos a la brevedad.<br>
+                ¡Sigue navegando por nuestra página!</p>
+                <a href="index.html" class="back">Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+</body>
