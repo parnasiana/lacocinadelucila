@@ -208,7 +208,7 @@ button {
     .find-me, .find-me::placeholder, option, .comuna {
         font-size: 20px;
         width: 280px;
-        margin: 0, auto;
+        margin: 14px, auto;
     }
 
     .cellphone-btn{
@@ -328,7 +328,7 @@ button {
         font-size: 18px;
         padding: 10px 0px;
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 14px;
     }
 
     .submit {
