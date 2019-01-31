@@ -186,6 +186,7 @@ h4 {
 
 .back-img-thanks{
     background-image: url(img/BackgroundImgs/Background1.png);
+    background-size: cover;
 }
 
 /* phone */
@@ -321,6 +322,18 @@ h4 {
         line-height: 18px;
         text-align: justify;
     }
+
+    .title-thanks{
+        text-align: center;
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .subtitle-thanks {
+        line-height: 28px;
+    }
+
+    
 }
 
 /* another dispositives*/
@@ -432,5 +445,12 @@ h4 {
         margin: 20px auto;
         line-height: 18px;
         text-align: justify;
+    }
+
+    .title-thanks{
+        text-align: center;
+        font-size: 30px;
+        width: 90%;
+        margin-top: 20px;
     }
 }

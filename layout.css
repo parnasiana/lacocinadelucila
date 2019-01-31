@@ -322,6 +322,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 8px 8px 5px rgb(0, 0, 0, 0.2);
 }
 
 .subtitle-thanks {
@@ -525,6 +526,23 @@ footer {
         width: 90%;
         margin: 20px auto;
     }
+
+    .msg-thanks{
+        height: 450px;
+        width: 85%;
+        background-color: rgb(193, 39, 45);
+        margin: 100px auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 8px 8px 5px rgb(0, 0, 0, 0.2);
+    }
+
+    .subtitle-thanks {
+        width: 95%;
+        text-align: center;
+    }
 }
 
 /* another dispositives*/
@@ -689,6 +707,17 @@ footer {
     margin-right: 0;
     }
 
+    .msg-thanks{
+        height: 280px;
+        width: 95%;
+        background-color: rgb(193, 39, 45);
+        margin: 30px auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 8px 8px 5px rgb(0, 0, 0, 0.2);
+    }
     
 }
 
