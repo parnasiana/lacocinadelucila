@@ -108,6 +108,7 @@ button {
     font-size: 25px;
     text-decoration: none;
     margin-top: 85px;
+    border: none;
 }
 
 #menu-mobile{

@@ -45,7 +45,7 @@
                     <br>Además, te entregamos un espacio para que nos
                     escribas un mensaje y nos contactaremos contigo a la brevedad.
                 </h4>
-                <div class="inputs-info">
+                <form class="inputs-info" name="infocontact" method="POST" data-netlify="true" action="/thanks.html">
                     <div class="inputs-group">
                         <input type="text" name="NombreApellido" placeholder="Nombre Apellido" class="search">
                         <input type="text" name="Ciudad" placeholder="Ciudad" class="search">
@@ -123,9 +123,9 @@
                     </div>
                     <div class="write-section">
                         <textarea type="text" class="msg-text" name="mensajecliente" placeholder="Escríbenos un breve mensaje explicándonos lo que buscas de nosotros..."></textarea>
-                        <a href="#" class="send" alt=BotonEnviar>Enviar mi información</a>
+                        <button type="submit" class="send" alt=BotonEnviar>Enviar mi información</a>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
