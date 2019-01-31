@@ -327,8 +327,8 @@ button {
     .find-me, .find-me::placeholder, option, .comuna {
         font-size: 18px;
         padding: 10px 0px;
-        margin-bottom: 10px;
-        margin-top: 14px;
+        margin-bottom: 14px;
+        margin-top: 10px;
     }
 
     .submit {
