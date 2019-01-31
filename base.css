@@ -452,5 +452,11 @@ h4 {
         font-size: 30px;
         width: 90%;
         margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .subtitle-thanks {
+        font-size: 14px;
+        line-height: 20px;
     }
 }

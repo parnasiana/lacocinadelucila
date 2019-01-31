@@ -528,7 +528,7 @@ footer {
     }
 
     .msg-thanks{
-        height: 450px;
+        height: 100%;
         width: 85%;
         background-color: rgb(193, 39, 45);
         margin: 100px auto;
@@ -708,10 +708,10 @@ footer {
     }
 
     .msg-thanks{
-        height: 280px;
-        width: 95%;
+        height: 100%;
+        width: 75%;
         background-color: rgb(193, 39, 45);
-        margin: 30px auto;
+        margin: 20px auto;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
